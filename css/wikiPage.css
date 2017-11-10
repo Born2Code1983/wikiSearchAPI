@@ -1,0 +1,65 @@
+body {
+    font-family: 'Bangers';
+    background-color: #e03333;
+}
+
+#mySearch, #searchDiv{
+    text-align:center;
+    margin:auto;
+    display:block;
+}
+
+input:focus {
+    width: 90%;
+    border-color:yellow;
+    background-color:rgb(232, 235, 199);
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: yellow;
+}
+ol{
+    list-style-type: none;
+}
+
+li {
+    margin-bottom:10px;
+}
+ol:hover li {
+    opacity: .5;
+}
+ol li:hover {
+    opacity: 1;
+}
+
+#wikiLogoDiv {
+    text-align: center;
+}
+#wikiLogo {
+    max-width: 200px;
+    height: auto;
+}
+#showWikiInfoDiv {
+    padding: 0px;
+    background: linear-gradient(red, white, red);
+    margin-left:-20px;
+    margin-right:10px;
+}
+
+#showWikiInfo {
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid;
+   font-size:1em;
+}
+li:nth-child(odd) {
+    background: rgb(255, 255, 255);
+}
+li:nth-child(even) {
+    background: rgb(219, 170, 170);
+}
