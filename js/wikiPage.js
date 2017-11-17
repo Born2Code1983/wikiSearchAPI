@@ -28,6 +28,7 @@ $(document).ready(function() {
                   wikiInfo.html('');
                   for (var i = 0; i < data[1].length; i++) {
                       wikiInfo.prepend("<li id ='showWikiInfo'><a href=" + data[3][i] + " target=" + "blank" + "><h3>" + data[1][i] + "</h3></a><p>" + data[2][i] + "</p></li>");
+                   $('#mySearch').val("");
                   }
   
               },
